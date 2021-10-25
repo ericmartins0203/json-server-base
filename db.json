@@ -6,6 +6,30 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "kenzinho2@mail.com",
+      "password": "$2a$10$lBqAE3QglHehpJ7sab9iZOPCK916HsCG6K3XSul0gWs0KqyaVLkpe",
+      "name": "Kenzinho2",
+      "age": 38,
+      "id": 2
+    }
+  ],
+  "bedrooms": [
+    {
+      "quartoSolteiro": "1"
+    },
+    {
+      "quartoCasal": "4"
+    }
+  ],
+  "consumption": [
+    {
+      "consumption": "cerveja",
+      "quantity": "2",
+      "bedroom": "2",
+      "user": "2",
+      "id": 1
     }
   ]
 }
