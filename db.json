@@ -6,30 +6,65 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
-    },
-    {
-      "email": "kenzinho2@mail.com",
-      "password": "$2a$10$lBqAE3QglHehpJ7sab9iZOPCK916HsCG6K3XSul0gWs0KqyaVLkpe",
-      "name": "Kenzinho2",
-      "age": 38,
-      "id": 2
     }
   ],
-  "bedrooms": [
+  "products": [
     {
-      "quartoSolteiro": "1"
+      "id": 1,
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14,
+      "img": "https://i.ibb.co/fpVHnZL/hamburguer.png"
     },
     {
-      "quartoCasal": "4"
+      "id": 2,
+      "name": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 16,
+      "img": "https://i.ibb.co/djbw6LV/x-burgue.png"
+    },
+    {
+      "id": 3,
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18,
+      "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png"
+    },
+    {
+      "id": 4,
+      "name": "Combo Kenzie",
+      "category": "Sanduíches",
+      "price": 26,
+      "img": "https://i.ibb.co/y8RbS7T/202110050424-xijoowz172-1.png"
+    },
+    {
+      "id": 5,
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 5,
+      "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png"
+    },
+    {
+      "id": 6,
+      "name": "Coca-cola",
+      "category": "Bebidas",
+      "price": 7,
+      "img": "https://i.ibb.co/fxCGP7k/coca-cola.png"
+    },
+    {
+      "id": 7,
+      "name": "Milk Shake Ovomaltine",
+      "category": "Sobremesa",
+      "price": 10,
+      "img": "https://i.ibb.co/TPsgBXs/milshakeovomaltine.png"
+    },
+    {
+      "id": 8,
+      "name": "Sunday",
+      "category": "Sobremesa",
+      "price": 10,
+      "img": "https://i.ibb.co/1zhmNMJ/sundae.png"
     }
   ],
-  "consumption": [
-    {
-      "consumption": "cerveja",
-      "quantity": "2",
-      "bedroom": "2",
-      "user": "2",
-      "id": 1
-    }
-  ]
+  "cart": []
 }
