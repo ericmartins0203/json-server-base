@@ -51,21 +51,13 @@ exemplo de saida
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
-### products
+### Task
 
-GET /product
+GET /task
 
 O método não precisa de nenhuma entrada ou autorização.
 
-### cart
-
-GET /cart
-
-O método não precisa de nenhuma entrada, mas requer autorização.
-
-_ Authorization : bearer token _ colocar o token do usuário que fez login
-
-POST /product
+POST /cart
 
 O método requer entrada e autorização.
 
@@ -75,11 +67,10 @@ exemplo de entrada
 
 ```json
 {
-  "id": 5,
-  "name": "Fanta Guaraná",
-  "category": "Bebidas",
-  "price": 5.0,
-  "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png"
+  "title": "study",
+  "completed": false,
+  "userId": 5,
+  "description": "study typescript"
 }
 ```
 
@@ -88,14 +79,14 @@ exemplo de saida
 ```json
 {
   "id": 5,
-  "name": "Fanta Guaraná",
-  "category": "Bebidas",
-  "price": 5.0,
-  "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png"
+  "title": "study",
+  "completed": false,
+  "userId": 5,
+  "description": "study typescript"
 }
 ```
 
-DELETE /product/id
+DELETE /task/id
 
 O método requer o id do item a ser excluido e autorização.
 
