@@ -7,7 +7,7 @@ POST /users
 exemplo de entrada
 
 ```json
-{ "email": "kenzinho@mail.com", "password": "123456" }
+{ "name": "kenzinho" ,"email": "kenzinho@mail.com", "password": "123456" }
 ```
 
 exemplo de saida
@@ -17,6 +17,7 @@ exemplo de saida
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvMkBtYWlsLmNvbSIsImlhdCI6MTYzNTUzMjkxMiwiZXhwIjoxNjM1NTM2NTEyLCJzdWIiOiIyIn0.xs9NxcaoeV55yaX6W6iVbQR4eYDAH8wfM9XAmChDa3E",
   "user": {
     "email": "kenzinho2@mail.com",
+    "name": "Kenzinho",
     "id": 2
   }
 }
