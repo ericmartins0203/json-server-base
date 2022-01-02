@@ -53,11 +53,13 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### Task
 
-GET /task
+GET /tasks
 
-O método não precisa de nenhuma entrada ou autorização.
+O método não precisa de nenhuma entrada, mas precisa de autorização.
 
-POST /cart
+_ Authorization : bearer token _ colocar o token do usuário que fez login
+
+POST /tasks
 
 O método requer entrada e autorização.
 
@@ -86,8 +88,34 @@ exemplo de saida
 }
 ```
 
-DELETE /task/id
+PATCH /tasks/id
+
+O método requer o id do item a ser modificado, entada e autorização.
+
+_ Authorization : bearer token _ colocar o token do usuário que fez login
+
+
+```json
+{
+  "completed": true,
+}
+```
+
+exemplo de saida
+
+```json
+{
+  "id": 5,
+  "title": "study",
+  "completed": true,
+  "userId": 5,
+  "description": "study typescript"
+}
+```
+
+DELETE /tasks/id
 
 O método requer o id do item a ser excluido e autorização.
 
 _ Authorization : bearer token _ colocar o token do usuário que fez login
+
